@@ -92,6 +92,7 @@ h3 {
     text-align: right;
     padding-right: 4px;
     color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .about-me-text {
@@ -213,11 +214,9 @@ h3 {
 .contact {
     background-color: burlywood;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
     background-size: 100% 100%;
-
     z-index: 9999;
 }
 
@@ -228,27 +227,43 @@ h3 {
 
 .contact nav {
     margin: 7px 0;
+    padding-top: 10px;
 }
 
 .contact nav ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);    
   }
 
-  .contact nav ul li a {
+  .contact nav ul li {
+      margin-left: 30px;
+  }
+
+.contact nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-size: 22px;
 }
 
-    .contact nav ul li:hover {
-        background: white;
-        color: black;
-        border-radius: 15px;
-        text-shadow: none;
+.contact nav ul li a:hover {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
+.contact nav ul li:hover {
+    background: white;
+    color: black;
+    border-radius: 15px;
+    text-shadow: none;
   }
 
