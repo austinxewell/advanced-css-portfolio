@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 header {
     background-color: black;
@@ -90,9 +94,10 @@ h3 {
     border-right: white solid 5px;
     width: 20%;
     text-align: right;
-    padding-right: 4px;
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+    padding-right: 5px;
 }
 
 .about-me-text {
@@ -106,9 +111,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     padding-top: 25px;
-}
-.about {
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 
 .work {
@@ -209,8 +212,6 @@ h3 {
     text-align: left;
   }
 
-
-
 .contact {
     background-color: burlywood;
     display: flex;
@@ -267,3 +268,54 @@ h3 {
     text-shadow: none;
   }
 
+  @media screen and (max-width: 910px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+
+    .contact {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    .contact h3 {
+        width: 100%;
+        text-align: center;
+     }
+  
+    .contact nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact nav ul li a {
+        font-size: 20px;
+    }
+
+    .about-me-text {
+        text-align: center;
+        width: 100%;
+    }
+    
+    h3 {
+        width: 100%;
+        text-align: center;
+    }
+  }
