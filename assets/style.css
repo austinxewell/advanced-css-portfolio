@@ -146,7 +146,7 @@ h3 {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 15px;
-    background-image: url('./images/git-n-shape1.JPG');
+    background-image: url('./images/Capture.JPG');
     background-size: cover;
     background-position: center;
     padding: 20px 0;
@@ -169,7 +169,7 @@ h3 {
 }
 
 #card-1 {
-      background-image: url(./images/horiseon.JPG);
+      background-image: url(./images/git-n-shape1.JPG);
 }
 
 #card-2 {
@@ -177,7 +177,7 @@ h3 {
 }
 
 #card-3 {
-      background-image: url(./images/coming-soon.jpg);
+      background-image: url(./images/horiseon.JPG);
 }
 
 #card-4 {
